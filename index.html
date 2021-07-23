@@ -38,68 +38,233 @@
               width: 200px;
               background-color: #f2f2f2;
               padding: 20px;
+              margin-top: 1000px;
+
               /* margin: 20px; */
               
               
-              display: flex;
+              
               
             }
+
+            .pageWrap{
+                width: 600px;
+
+                margin-left: 300px;
+                position: relative;
+            }
+
+            .sideBar{
+                
+                position: fixed;
+                /* margin-left: 410px; */           
+                width: 100px;
+                height: 100%;
+                
+                
+
+            }
+
+            nav a.rounded-lg {
+              background-color: rgb(97, 155, 247);
+              
+              border-radius: 10px;
+              height: 30px;
+             
+              
+              
+            }
+
+            ul {
+  list-style: circle;
+}
+
+
+div h2{
+  border-width: 5px;
+  border: black;
+}
+
             </style>
             
 
     </head>
-    <body>
+    <body >
 
-        <nav class="font-sans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-6 bg-white shadow sm:items-baseline w-full">
-            <div class="mb-2 sm:mb-0 inner">
-          
-              <a href="/home" class="text-2xl no-underline text-grey-darkest hover:text-blue-dark font-sans font-bold">LogoText</a><br>
-              <span class="text-xs text-grey-dark">Beautiful New Tagline</span>
-          
-            </div>
-          
-            <div class="sm:mb-0 self-center">
-              <!-- <div class="h-10" style="display: table-cell, vertical-align: middle;"> -->
-              <a href="./Contact.html" class="text-md no-underline text-black hover:text-blue-dark ml-2 px-1">Contact Me</a>
-              <a href="#" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Link2</a>
-              <!-- <a href="/two" class="text-lg no-underline text-grey-darkest hover:text-blue-dark ml-2">About Us</a> -->
-              <a href="#" class="text-md no-underline text-grey-darker hover:text-blue-dark ml-2 px-1">Link3</a>
-              <!-- </div> -->
-          
-            </div>
-          </nav>
+  
 
-          <div style = "width: 100%; height: 300px; background-color: #2FB6D0;"> 
-            <h4 style = "  color: white; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; padding: 20px; text-align: center; font-size: 48px;"> About Me </h4>
+          <div class="flex">
+
+            <nav  style="position: fixed; height:100%; width:200px; " class=" text-left text-lg md:text-center w-32 border-2 border-blue-500 flex flex-col bg-blue-500 bg-opacity-50 gap-2 p-4 rounded-r-lg" >
+                <a class= "rounded-lg md:hover:bg-blue-700" href= "#profile">Profile</a>
+                <a class= "rounded-lg md:hover:bg-blue-700"href="#work_experience">Work Experience</a> 
+                <a class= "rounded-lg md:hover:bg-blue-700"href="#education">Education</a> 
+                <a class= "rounded-lg md:hover:bg-blue-700"href="#hobbies">Hobbies</a>
+                <a class= "rounded-lg md:hover:bg-blue-700"href="#skills">Skills</a>
+                <a class= "rounded-lg md:hover:bg-blue-700"href="#achievements">Achievements</a>
+                <!-- <a style="background-color: blueviolet;"href="#contact">Contact Me</a> -->
+              </nav>
+              
+             
+              
+            <div class="flex-1 ">
+                <div class="pageWrap"  >
+
+                  <br>
+                  <br>
+                  <div class="p-6" >
+                    <h1>Olivia Millar</h1>
+                  </div>
+                  <br>
+                  <br>
+                  
+
+                 
+                <div class="border-solid border-4 border-blue-500 rounded-lg p-6" style="border-radius: 20px; margin: 10px;">
+                <h2 id="profile">Profile</h2>
+                I am a 17-year-old student who is currently enrolled in Grosvenor Grammar School.
+                I am polite, friendly and I love talking to others. I am extremely hard working and determined, consistently being top 10 in exam results, yet I am flexible and love to learn. I want to start my career now so I can gain valuable experience for later life.
+              </div>
+
+              <div class="border-solid border-4 border-blue-500 rounded-lg p-6" style="border-radius: 20px; margin: 10px;">
+                <h2 id="work_experience">Work Experience</h2>
+                <strong>3rd June 2019 - 4th June 2019
+                <br>
+                Kairos, 18 Ormeau Ave, Belfast, BT2 8HD</strong>
+                <br>
+
+I carried out market research on eSports, recording and organising my findings on a PowerPoint presentation. At the close of the experience, I presented my findings to the team, answering questions based on what I had found.
+<br>
+<br>
+
+<strong>18th May 2021-20th May 2021
+  <br>
+  Kainos
+</strong>
+<br>
+This included learning how to code in HTML and CSS, while also learning how the company operates, and the opportunities it offers regarding higher apprenticeships.
+<br>
+<br>
+
+<strong>22nd June 2021-24th June 2021
+  <br>
+  Allstate
+</strong>
+<br>
+I was able to develop my coding skils through a coding workshop. I also learnt about the fields within IT, such as Cyber Security and A.I. I took part in group activities which improved my presentation and communication skills when sharing ideas.
+<br>
+<br>
+
+<strong>26th July 2021-30th July 2021
+  <br>
+  PWC
+</strong>
+<br>
+
+<br>
+<br>
+
+
+<strong>August 2020-Current 
+  <br>
+  St Patrick’s Racquets Club
+</strong>
+<br>
+I am employed to assist the head coach with the six to ten year-old coaching class on a Saturday morning.
+<br> 
+</div>
+
+          <div class="border-solid border-4 border-blue-500 rounded-lg p-6" style="border-radius: 20px; margin: 10px;">     
+            <h2 id="education">Education</h2>
+                <strong>Grosvenor Grammar School, Belfast</strong> <br><br>
+Currently I am in Year 13 of Grosvenor Grammar School. I am studying four A-Levels:  Mathematics, Further Mathematic, Physics and Software Systems Development.
+ <br>Listed below are the GCSE grades I have attained so far:<br><br>
+ <ul>
+   <li>GCSE Mathematics-<strong>A*</strong></li>
+   <li>GCSE Learning for Life and Work-<strong>A*</strong></li>
+   <li>GCSE English Language-<strong>A*</strong></li>
+   <li>GCSE English Literature-<strong>A*</strong></li>
+   <li>GCSE French-<strong>A*</strong></li>
+   <li>GCSE Spanish-<strong>A*</strong></li>
+   <li>GCSE Chemistry-<strong>A*</strong></li>
+   <li>GCSE Physics-<strong>A*</strong></li>
+   <li>GCSE Technology and Design-<strong>A*</strong></li>
+   <li>GCSE Digital Technology-<strong>A*</strong></li>
+   <li>GCSE Further Maths-<strong>A*</strong></li>
+ </ul>
+</div> 
+<div class="border-solid border-4 border-blue-500 rounded-lg p-6" style="border-radius: 20px; margin: 10px;">
+                <h2 id="hobbies">Hobbies</h2>
+                I am a keen baker and I share images of my bakes on an Instagram page. 
+                I love to play tennis and badminton. I assist the coach at my tennis club to coach six to ten-year olds. 
+                I enjoy organising events, like dinners and walks, with my congregation. 
+                At school, I was part of a dance and netball team. 
+                I also helped out at cookery club once a week, assisting the Year 8 pupils. 
+                I am interested in programming, so I was able to take part in Cyberfirst Futures, an online course about cybersecurity. 
+</div>
+<div class="border-solid border-4 border-blue-500 rounded-lg p-6" style="border-radius: 20px; margin: 10px;">
+                <h2 id="skills">Skills</h2>
+                <ul>
+                  <li><strong>Organisation</strong>- I keep lists and records of what needs to be done so that things can be done efficiently</li>
+                  <li><strong>Time Management</strong>- I always meet deadlines by handing homework and coursework in on time. </li>
+                  <li><strong>Numeracy</strong>- I tutored in Maths through school and have achieved an A* in my Maths and Further Maths GCSE.</li>
+                  <li><strong>Teamwork</strong>- In school, I enjoy working in teams. I enjoy exchanging ideas and using them to encourage each other.</li>
+                  <li><strong>Communication</strong>- I achieved top marks in my GCSE English Language Speaking and Listening module. </li>
+                  <li><strong>ICT</strong>- I use ICT applications every day for school projects and at home. I am a Microsoft Office Specialist in Word and Excel.</li>
+                  <li><strong>Problem Solving</strong>- To secure an Arkwright scholarship, the aptitude exam required problem solving, which showcased my creativity.</li>
+                </ul>
+</div>
+
+              <div class="border-solid border-4 border-blue-500 rounded-lg p-6" style="border-radius: 20px; margin: 10px;">
+                <h2 id="achievements" >Achievements</h2>
+                <ul >
+                  <li>I sat two ICT exams in Year 11 and have since been awarded the title of MOS (Microsoft Office Specialist) in Microsoft Word and Excel.</li>
+                  <li>I am an Arkwright scholar, being sponsored by a cybersecurity company, Crowdstrike.</li>
+                  <li>In 2016, a team and I won Digital Futures, and as a result went to San Francisco to meet with technology companies in Silicon Valley like Google and Microsoft. </li>
+                  <li>We were also finalists in Junior Invent 2017 and Big Bang Fair 2018. </li>
+                  <li>These achievements and hours of work have also awarded me a Bronze Crest Award.</li>
+                  <li>I took part in a two-day tennis coaching course and have a Certificate of Attendance of PTR Apprentice coaching course.</li>
+                </ul>
+                </div>
+
+
+
+
+</div>
+          <!-- <div style = "margin: 20px; float: right; ">
+            
+  
+            <div class="container" >
+              <h3 id="contact">Contact Form</h3>
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          </div> -->
+  
+            </div>
+           
           </div>
 
-          <div></div>
 
-          <div style = "margin: 20px; float: right;">
-          <h3 >Contact Form</h3>
 
-          <div class="container" >
-          <form action="/action_page.php">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
-            </select>
-        
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-        
-            <input type="submit" value="Submit">
-          </form>
-        </div>
-        </div>
+
 
        
     </body>
